@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 
-app.config['DEBUG'] = True
+app.debug = True
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_SSL'] = True
